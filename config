@@ -187,12 +187,6 @@ exec --no-startup-id setxkbmap -option 'grp:switch,grp:lwin_toggle' -layout us,r
 # screenshot
 bindsym Print exec gnome-screenshot -i
 
-# audio keys
-bindsym XF86AudioLowerVolume exec --no-startup-id /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -10%
-bindsym XF86AudioRaiseVolume exec --no-startup-id /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ +10%
-bindsym XF86AudioMuteVolume exec --no-startup-id /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ 0
-exec --no-startup-id pasystray
-
 # battery savings
 exec_always sudo ~/.i3/lowbat
 
