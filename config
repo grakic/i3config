@@ -69,6 +69,7 @@ bar {
 
 # start program launcher
 bindsym $mod+d exec i3-dmenu-desktop --dmenu='dmenu.xft -fn PragmataPro-12 -nb "$baseB0" -nf "$baseB3" -sb "$green"'
+bindsym $mod+F2 exec i3-dmenu-desktop --dmenu='dmenu.xft -fn PragmataPro-12 -nb "$baseB0" -nf "$baseB3" -sb "$green"'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
