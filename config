@@ -178,6 +178,7 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id gnome-keyring-daemon /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id ssh-add -s /usr/lib/i386-linux-gnu/libsimple-tpm-pk11.so
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 
