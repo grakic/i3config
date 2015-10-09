@@ -188,7 +188,7 @@ exec --no-startup-id setxkbmap -option 'grp:switch,grp:lwin_toggle' -layout us,r
 bindsym Print exec gnome-screenshot -i
 
 # battery savings
-exec_always sudo ~/.i3/lowbat
+exec sudo ~/.i3/lowbat
 
 # background
 exec --no-startup-id feh --bg-fill ~/.i3/back.jpg
